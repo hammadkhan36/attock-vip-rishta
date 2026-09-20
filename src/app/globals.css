@@ -308,3 +308,24 @@ footer { border-top: 1px solid var(--border); padding: 32px 0; }
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+
+
+
+
+.dashboard-notice {
+  margin-top: 20px;
+  padding: 18px;
+  background: #edf1e8;
+  border: 1px solid #ccd7c7;
+  border-radius: 10px;
+}
+
+.dashboard-notice p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+button:focus-visible {
+  outline: 3px solid #a77924;
+  outline-offset: 4px;
+}
